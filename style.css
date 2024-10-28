@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body {
+    width: 100%;
+    height: 100%;
+}
+.page1 {
+    width: 100vw;
+    height: 100vh;
+}
+.page1 img {
+    width: 90vw;
+    height: 89vh;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mainimg h2 {
+    position: absolute;
+    top: 70%;
+    font-size: 5vw;
+    left: 8vw;
+}
+.mainimg h3 {
+    position: absolute;
+    top: 81%;
+    font-size: 2vw;
+    left: 8vw;
+    color: #0A0B10;
+    opacity: 0.8;
+}
+.page2 {
+    width: 100vw;
+    height: 100vh;
+}
+.page2 h4 {
+    font-size: 2vw;
+    text-align: center;
+}
+.page2 .imga {
+    width: 50vw;
+    height: 90vh;
+    object-fit: cover;
+    margin-left: 6vw;
+    margin-top: 3vw;
+}
+.page2 .imgb {
+    width: 34vw;
+    height: 75vh;
+    object-fit: cover;
+    margin-top: 1vw;
+    position: absolute;
+    margin-left: 4vw;
+}
+.page2 h4 {
+    font-size: 2vw;
+    position: absolute;
+    text-align: justify;
+    left: 60%;
+    top: 180%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 2.7vw;
+
+}
+.page2 h5 {
+    font-size: 2.5vw;
+    margin-left: 5.5vw;
+    margin-top: 1vw;
+    letter-spacing: 0.8vw;
+
+}
+.page3 {
+    width: 100vw;
+    height: 100vh;
+}
+.page3 .imgc {
+    width: 90vw;
+    height: 90vh;
+    object-fit: cover;
+    position: absolute;
+    top: 270%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.page4 {
+    width: 100vw;
+    height: 100vh;
+}
+.page4 h4 {
+    margin-top: 51vw;
+    margin-left: 5vw;
+    font-size: 21.vw;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.page4 .imgd {
+    width: 50vw;
+    height: 97vh;
+    position: absolute;
+    top: 327vh;
+    left: 45vw;
+    object-fit: cover;
+}
+.imgdesign {
+    position: absolute;
+    top: 310%;
+    left: 5%;
+}
+.page5 {
+    width: 100vw;
+    height: 100vh;
+}
+.imge {
+    width: 40vw;
+    position: absolute;
+    top: 442%;
+    left: 4vw;
+    z-index: 99;
+
+}
+.page5 h5 {
+    font-size: 1vw;
+    position: absolute;
+    left: 47vw;
+    top: 445%;
+    font-size: 1.4vw;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2vw;
+    
+
+}
+.imgf {
+    width: 50vw;
+    position: absolute;
+    left: 47vw;
+    top: 465%;
+    z-index: 99;
+
+}
+.imgg {
+    rotate: -50deg;
+    margin-left: 5vw;
+    z-index: 2;
+}
+.imgh {
+    width: 90vw;
+    object-fit: cover;
+    height: 200vh;
+    margin-left: 5vw;
+}
+.video1 {
+    width: 90vw;
+    object-fit: cover;
+    height: 160vh;
+    margin-left: 5vw;
+    margin-top: 5vw;
+}
+.imgi {
+    display: none;
+    position: absolute;
+    width: 90vw;
+    height: 100vh;
+    object-fit: cover;
+    left: 45vw;
+}
+.lineheight {
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    margin-top: 5vw;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.imgj {
+    margin-top: 4vw;
+    width: 30vw;
+    margin-left: 5vw;
+}
+.imgk {
+    margin-top: 4vw;
+    width: 54vw;
+    position: absolute;
+    top: 1031.10%;
+    margin-left: 5vw;
+}
+.imgl {
+    z-index: 200;
+    position: absolute;
+    left: 5vw;
+    top: 1131%;
+}
+.tagone {
+    position: absolute;
+    top: 101vw;
+    left: 75%;
+    width: 20vw;
+}
+.tagtwo {
+    position: absolute;
+    top: 486vw;
+    left: 75%;
+    width: 20vw;
+}
+.footer {
+    margin-top: 50vw;
+    width: 100vw;
+    height: 140vh;
+    object-fit: cover;
+}
